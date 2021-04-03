@@ -10,6 +10,8 @@ namespace PacBlocs.Class
 {
     class ClConstants
     {
+        public const int MAXBLOCS = 10;
+
         public static Color RandomColor()
         {
             Random r = new Random();
